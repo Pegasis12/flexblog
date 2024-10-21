@@ -1,0 +1,178 @@
+body, h1, h2, p, ul, li, a{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Nunito", Helvetica,  Arial, sans-serif;
+  color: #222222;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* super-info */
+.superinfo-bg{
+  background: #122ab2;
+  color: white;
+}
+
+.superinfo{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.superinfo p, .superinfo a{
+  margin: 0 10px 10px 10px;
+}
+
+.superinfo a{
+  color: white;
+}
+
+/* header */
+.menu-bg{
+  background: #2c70ff;
+}
+
+.menu{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-nav ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a{
+  font-size: 1.3rem;
+  display: block;
+  padding: 10px;
+}
+
+.menu-nav a:hover{
+  color: #122ab2;
+}
+
+.menu a{
+  color: white;
+}
+
+.menu-logo a{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* introducao */
+.introducao{
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: bold;
+  padding: 60px 10px;
+}
+
+/* sobre */
+.sobre{
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info{
+  /* faz com que o elemento oculpe 2 vezes mais q os outrs elementos flex / quano chega em 300px ele quebra*/
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.sobre-info p{
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: #7c7c7c;
+}
+
+.sobre-img{
+  /* diminui as ims até 160 para quebrar */
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+
+/* preco */
+.produtos{
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.produtos-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  margin: 0 10px;
+}
+
+.produtos h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin: 0 10px 60px 10px ;
+}
+
+.produtos-item{
+  flex: 1 1 175px;
+  margin: 10px;
+}
+
+.produtos-item h2{
+  padding: 60px 20px;
+  background: #f7f7f7;
+  font-size: 3rem;
+  color: #a4a4a4;
+}
+
+.purple{
+  border-top: 8px solid #ae81ff;
+}
+
+.pink{
+  border-top: 8px solid #f9265e;
+}
+
+.blue{
+  border-top: 8px solid #66d9eb;
+}
